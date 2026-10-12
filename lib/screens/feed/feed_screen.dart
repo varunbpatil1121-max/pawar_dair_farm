@@ -201,7 +201,7 @@ class _PostCardState extends State<PostCard> {
                     child: Icon(
                       Icons.push_pin,
                       size: 18,
-                      color: AppColors.amber,
+                      color: Color.fromARGB(255, 233, 71, 59),
                     ),
                   ),
                 Pill('${cat.emoji} ${cat.label}', color: Color(cat.color)),
